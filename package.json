@@ -2,10 +2,10 @@
   "name": "bear_the_fisher",
   "version": "1.0.0",
   "description": "2d cartoon fishing game build with Phaser 3",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "test",
-    "build": "webpack --config webpack/prod.js",
+    "build": "webpack --config webpack/prod.js --stats-children",
     "start": "webpack-dev-server --config webpack/base.js --open"
   },
   "repository": {
@@ -25,12 +25,12 @@
   },
   "homepage": "https://github.com/8Bts/Bear_The_Fisher#readme",
   "dependencies": {
-
     "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "webpack": "^5.31.2",
-    "html-webpack-plugin": "^5.3.1",
-    "terser-webpack-plugin": "^5.1.1",
     "copy-webpack-plugin": "^8.1.1",
+    "html-webpack-plugin": "^5.3.1",
+    "phaser": "^3.54.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.31.2",
     "webpack-merge": "^5.7.3"
   },
   "devDependencies": {

@@ -44,7 +44,7 @@ module.exports = {
       WEBGL_RENDERER: JSON.stringify(true),
     }), // config webpack to handle renderer swapping in our app
     new HtmlWebpackPlugin({
-      template: '../dist/index.html',
+      template: './dist/index.html',
     }), // specify where your HTML template is located
   ],
 };

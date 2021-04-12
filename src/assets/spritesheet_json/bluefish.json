@@ -1,0 +1,524 @@
+{
+	"textures": [
+		{
+			"image": "bluefish.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1992,
+				"h": 1956
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bluefish0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 498,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 996,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 1494,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 0,
+						"y": 326,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 498,
+						"y": 326,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 996,
+						"y": 326,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 1494,
+						"y": 326,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 0,
+						"y": 652,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 498,
+						"y": 652,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 996,
+						"y": 652,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 1494,
+						"y": 652,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 0,
+						"y": 978,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 498,
+						"y": 978,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 996,
+						"y": 978,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 1494,
+						"y": 978,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 0,
+						"y": 1304,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 498,
+						"y": 1304,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 996,
+						"y": 1304,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 1494,
+						"y": 1304,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 0,
+						"y": 1630,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 498,
+						"y": 1630,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 996,
+						"y": 1630,
+						"w": 498,
+						"h": 326
+					}
+				},
+				{
+					"filename": "bluefish23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 498,
+						"h": 326
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 498,
+						"h": 326
+					},
+					"frame": {
+						"x": 1494,
+						"y": 1630,
+						"w": 498,
+						"h": 326
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:cbf1356d8c19ada2bdb2eb291acb8356:96eaa292253c37b0e07e27dcb5cf3549:1635de36dff983f65f8b0f5aa0f0b5d8$"
+	}
+}

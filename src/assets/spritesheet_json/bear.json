@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "bear.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 183,
+				"h": 75
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bear1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 75
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 75
+					}
+				},
+				{
+					"filename": "bear2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 74
+					},
+					"frame": {
+						"x": 61,
+						"y": 0,
+						"w": 61,
+						"h": 74
+					}
+				},
+				{
+					"filename": "bear3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 75
+					},
+					"frame": {
+						"x": 122,
+						"y": 0,
+						"w": 61,
+						"h": 75
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a9614ab618db222b606fbf98c9e3c9b3:12baad907861daafc472e2da98c6b1a6:6295e075e3238db0ec40ff984cf0523c$"
+	}
+}
