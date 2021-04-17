@@ -21,16 +21,24 @@ export default class PreloaderScene extends Phaser.Scene {
   }
 
   preload() {
-    // display progress bar
-    const progressBar = this.add.graphics();
-    const progressBox = this.add.graphics();
-    progressBox.fillStyle(0x222222, 0.8);
-    progressBox.fillRect(240, 270, 320, 50);
+    this.cameras.main.setBackgroundColor('#3d3d6c');
 
+    // display progress bar
     const { width } = this.cameras.main;
     const { height } = this.cameras.main;
+
+    const progressBox = this.add.graphics();
+    const progressBar = this.add.graphics();
+    const boxWidth = 420;
+    const boxHeight = 50;
+    const boxX = (width / 2 - boxWidth / 2);
+    const boxY = (height / 2 - boxHeight / 2);
+
+    progressBox.fillStyle(0x222222, 0.8);
+    progressBox.fillRect(boxX, boxY, boxWidth, boxHeight);
+
     const loadingText = this.make.text({
-      x: width / 2,
+      x: width / 2 + 10,
       y: height / 2 - 50,
       text: 'Loading...',
       style: {
@@ -42,37 +50,22 @@ export default class PreloaderScene extends Phaser.Scene {
 
     const percentText = this.make.text({
       x: width / 2,
-      y: height / 2 - 5,
+      y: height / 2,
       text: '0%',
       style: {
         font: '18px monospace',
         fill: '#ffffff',
+        fontStyle: 'bold',
       },
     });
     percentText.setOrigin(0.5, 0.5);
-
-    const assetText = this.make.text({
-      x: width / 2,
-      y: height / 2 + 50,
-      text: '',
-      style: {
-        font: '18px monospace',
-        fill: '#ffffff',
-      },
-    });
-    assetText.setOrigin(0.5, 0.5);
 
     // update progress bar
     this.load.on('progress', (value) => {
       percentText.setText(`${parseInt(value * 100, 10)}%`);
       progressBar.clear();
-      progressBar.fillStyle(0xffffff, 1);
-      progressBar.fillRect(250, 280, 300 * value, 30);
-    });
-
-    // update file progress text
-    this.load.on('fileprogress', (file) => {
-      assetText.setText(`Loading asset: ${file.key}`);
+      progressBar.fillStyle(0xffb11c, 1);
+      progressBar.fillRect(boxX + 10, boxY + 10, (boxWidth - 20) * value, boxHeight - 20);
     });
 
     // remove progress bar when complete
@@ -81,7 +74,6 @@ export default class PreloaderScene extends Phaser.Scene {
       progressBox.destroy();
       loadingText.destroy();
       percentText.destroy();
-      assetText.destroy();
       this.scene.start('mainScene');
     });
 
