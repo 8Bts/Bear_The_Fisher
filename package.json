@@ -13,6 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/8Bts/Bear_The_Fisher.git"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "keywords": [
     "2d",
     "fishing",
@@ -29,14 +34,13 @@
     "phaser": "^3.54.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
-    "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
-    "babel-preset-env": "^1.7.0",
-    "css-loader": "^5.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.2",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-loader": "^4.0.2",
@@ -48,11 +52,9 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.17.2",
-    "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2",
     "terser-webpack-plugin": "^5.1.1",
     "webpack": "^5.31.2",
-    "webpack-merge": "^5.7.3",
-    "html-webpack-plugin": "^5.3.1"
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
   }
 }

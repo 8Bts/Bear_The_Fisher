@@ -18,6 +18,7 @@ export default class GameOverScene extends Phaser.Scene {
     const element = this.add.dom(width / 2, height / 2).createFromCache('gameOverCont');
 
     element.getChildByID('scoreTotal').innerText = `Your score: ${score}`;
+    element.getChildByID('gameOverName').innerText = username;
 
     element.addListener('click');
 
