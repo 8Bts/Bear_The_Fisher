@@ -12,6 +12,9 @@ const config = {
       debug: false,
     },
   },
+  dom: {
+    createContainer: true,
+  },
 };
 
 export default config;

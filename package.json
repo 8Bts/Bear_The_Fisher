@@ -26,13 +26,7 @@
   },
   "homepage": "https://github.com/8Bts/Bear_The_Fisher#readme",
   "dependencies": {
-    "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "copy-webpack-plugin": "^8.1.1",
-    "html-webpack-plugin": "^5.3.1",
-    "phaser": "^3.54.0",
-    "terser-webpack-plugin": "^5.1.1",
-    "webpack": "^5.31.2",
-    "webpack-merge": "^5.7.3"
+    "phaser": "^3.54.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.13.15",
@@ -40,17 +34,25 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.20.2",
     "file-loader": "^6.2.0",
     "path": "^0.12.7",
+    "style-loader": "^2.0.0",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.17.2",
     "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.31.2",
+    "webpack-merge": "^5.7.3",
+    "html-webpack-plugin": "^5.3.1"
   }
 }

@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -10,6 +9,13 @@ module.exports = {
   devtool: 'eval-source-map',
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+        ],
+      },
       {
         test: /\.js$/, // checks for files with .js extension in the path specified below
         include: path.resolve(__dirname, 'src/'), // checks in this path
@@ -22,7 +28,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(gif|png|jpe?g|svg|xml|mp3|wav)$/i,
+        test: /\.(gif|png|jpe?g|svg|xml|mp3|wav|html)$/i,
         use: 'file-loader',
       }, // in case you need to use images, this loader will    // bundle them for you
     ],

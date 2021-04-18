@@ -1,0 +1,14 @@
+body {
+  background-color: #33335785;
+}
+
+canvas {
+  border: 2px solid #a4a3c89c;
+  border-radius: 0.3%;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

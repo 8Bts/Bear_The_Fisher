@@ -52,10 +52,7 @@ const Fish = (gameObject, scope) => {
     default:
   }
 
-  const getScore = () => {
-    console.log(`value(${value}) + (gameObject.scale(${gameObject.scale}) > scorePivot${scorePivot})? output: ${gameObject.scale > scorePivot})`);
-    return (gameObject.scale > scorePivot) ? (value + bonus) : value;
-  };
+  const getScore = () => ((gameObject.scale > scorePivot) ? (value + bonus) : value);
 
   const getDirection = () => direction;
 
