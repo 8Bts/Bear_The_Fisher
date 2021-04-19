@@ -20,7 +20,7 @@ canvas {
   align-items: center;
   width: 400px;
   height: 300px;
-  font-family: monospace;
+  font-family: monospace, 'Courier New', Courier;
   color: white;
 }
 
@@ -33,7 +33,7 @@ canvas {
   text-align: center;
   border-radius: 0.3rem;
   border: none;
-  font-family: monospace;
+  font-family: monospace, 'Courier New', Courier;
   font-size: 16px;
   font-weight: bold;
   color: white;
@@ -51,6 +51,7 @@ canvas {
 
 .login-h1 {
   color: white;
+  font-family: monospace, 'Courier New', Courier;
 }
 
 .login-form {
@@ -58,8 +59,8 @@ canvas {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   padding: 1em;
 }
 
@@ -74,4 +75,54 @@ canvas {
 #username:focus {
   border: none;
   outline : 1px solid aqua;
+}
+
+table {
+  font-family: monospace, 'Courier New', Courier;
+  border-collapse: collapse;
+  color: white;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #3d3d6c;
+  color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  color: #3d3d6c;
+}
+
+.col-1 { width: 10%; }
+
+.col-2 { width: 50%; }
+
+.col-3 { width: 40%; }
+
+.text-center { text-align: center; }
+
+.high-scores-cont {
+  width: 430px;
+  height: 430px;
+}
+
+.back-btn {
+  position: absolute;
+  height: 25px;
+  width: 100px;
+  right: 10px;
+  bottom: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.back-btn:hover {
+  padding: 0;
 }

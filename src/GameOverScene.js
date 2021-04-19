@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import _gameOverCont from './partials/_game_over.html';
+import Table from './helpers/highscore_table';
 
 export default class GameOverScene extends Phaser.Scene {
   constructor() {
@@ -15,17 +16,19 @@ export default class GameOverScene extends Phaser.Scene {
     const { width, height } = this.cameras.main;
     const { score } = this.scene.get('mainScene');
 
-    const element = this.add.dom(width / 2, height / 2).createFromCache('gameOverCont');
+    const gameOverCont = this.add.dom(width / 2, height / 2).createFromCache('gameOverCont');
 
-    element.getChildByID('scoreTotal').innerText = `Your score: ${score}`;
-    element.getChildByID('gameOverName').innerText = username;
+    gameOverCont.getChildByID('scoreTotal').innerText = `Your score: ${score}`;
+    gameOverCont.getChildByID('gameOverName').innerText = window.username;
 
-    element.addListener('click');
+    gameOverCont.addListener('click');
 
-    element.on('click', (event) => {
+    gameOverCont.on('click', (event) => {
       if (event.target.name === 'try-again-btn') {
         this.scene.start('mainScene');
         this.scene.stop();
+      } else if (event.target.name === 'leaderboard-btn') {
+        Table.renderTable(this);
       }
     });
   }

@@ -1,5 +1,7 @@
 import Phaser from 'phaser';
 import _loginForm from './partials/_login.html';
+import _scoresCont from './partials/_high_scores.html';
+import Table from './helpers/highscore_table';
 
 export default class LoginScene extends Phaser.Scene {
   constructor() {
@@ -8,6 +10,7 @@ export default class LoginScene extends Phaser.Scene {
 
   preload() {
     this.load.html('loginForm', _loginForm);
+    this.load.html('scoresCont', _scoresCont);
   }
 
   create() {
@@ -26,9 +29,10 @@ export default class LoginScene extends Phaser.Scene {
         if (inputUsername.value !== '') {
           //  Turn off the click events
           element.removeListener('click');
+          window.username = inputUsername.value;
           this.scene.start('preloadScene');
         }
-      }
+      } else if (event.target.name === 'leaderboard-btn') Table.renderTable(this);
     });
   }
 }

@@ -1,4 +1,5 @@
 const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -33,4 +34,9 @@ module.exports = {
       }, // in case you need to use images, this loader will    // bundle them for you
     ],
   },
+  plugins: [
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ['!index.html'],
+    }),
+  ],
 };
