@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import Fish from './fish';
-import Leaderboard from './Leaderboard';
+import Leaderboard from './leaderboard';
 
 let backMusic;
 

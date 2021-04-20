@@ -1,4 +1,4 @@
-import Leaderboard from '../Leaderboard';
+import Leaderboard from '../leaderboard';
 
 const module = (() => {
   const renderTable = (_this) => {

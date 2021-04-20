@@ -4,7 +4,7 @@
   "description": "2d cartoon fishing game build with Phaser 3",
   "main": "./src/index.js",
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "dev": "webpack --mode development",
     "build": "webpack --mode production --progress",
     "watch": "webpack --watch --mode production"
@@ -12,11 +12,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/8Bts/Bear_The_Fisher.git"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
   },
   "keywords": [
     "2d",
@@ -31,14 +26,14 @@
   },
   "homepage": "https://github.com/8Bts/Bear_The_Fisher#readme",
   "dependencies": {
-    "phaser": "^3.54.0"
+    "jest": "^25.5.4",
+    "phaser": "^3.54.0",
+    "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.14",
-    "@babel/core": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
+    "@jest/globals": "^26.6.2",
     "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.2",
     "eslint": "^6.8.0",
@@ -46,14 +41,16 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.20.2",
     "file-loader": "^6.2.0",
+    "fs": "0.0.1-security",
     "path": "^0.12.7",
+    "postcss": "^8.1.0",
     "style-loader": "^2.0.0",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.17.2",
     "terser-webpack-plugin": "^5.1.1",
-    "webpack": "^5.31.2",
+    "webpack": "^5.34.0",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
   }
