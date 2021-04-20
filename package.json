@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/8Bts/Bear_The_Fisher#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "jest": "^25.5.4",
     "phaser": "^3.54.0",
     "regenerator-runtime": "^0.13.7"
