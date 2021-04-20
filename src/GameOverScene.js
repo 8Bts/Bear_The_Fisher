@@ -14,11 +14,16 @@ export default class GameOverScene extends Phaser.Scene {
   create() {
     this.cameras.main.setBackgroundColor('rgba(0, 6, 17, 0.37)');
     const { width, height } = this.cameras.main;
-    const { score } = this.scene.get('mainScene');
+    const { score, maxScorePromise } = this.scene.get('mainScene');
 
     const gameOverCont = this.add.dom(width / 2, height / 2).createFromCache('gameOverCont');
 
     gameOverCont.getChildByID('scoreTotal').innerText = `Your score: ${score}`;
+
+    maxScorePromise.then(maxScore => {
+      gameOverCont.getChildByID('scoreBest').innerText = `Best score: ${maxScore}`;
+    });
+
     gameOverCont.getChildByID('gameOverName').innerText = window.username;
 
     gameOverCont.addListener('click');

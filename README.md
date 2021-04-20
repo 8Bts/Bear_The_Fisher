@@ -1,9 +1,17 @@
-# To-Do List
+# Bear The Fisher
 
-To-Do List app can be useful to create notes about tasks with details. You can also create new projects and add new tasks associated with that project. If you want to delete, edit the todos, or see its description, you can expand them by clicking "Show details".
+Bear The Fisher is a simple but addictive 2d fishing game. The main character in this game is the Bear trying to catch fishes. You can play this game only on the 1366x768 or higher screens. Check [How To Play](#How-To-Play) section for gameplay details and controls.
 
 ## Application Screenshot
-![screenshot](screenshots/screenshot.png)
+![screenshot](src/assets/screenshots/screenshot.png)
+
+## How To Play
+
+Help the bear to catch fishes by pressing the  [`Space`]  button at the right time and you will get scores for it. Scores for the fishes depend on the type and the scale of the fish. Look out for the hungry sharks.
+They will be added by one as you get more scores. Try to not catch them neither feed them with the fish that is on the hook. If you catch the shark, the game is over.
+Your score will be submitted to the leaderboard automatically when you refresh your maximum score.
+
+Hint: Try to aim mouth of the fishes. Otherwise they will ignore the hook.
 
 ## Built With
 
@@ -19,7 +27,7 @@ To-Do List app can be useful to create notes about tasks with details. You can a
 
 [Githack](https://raw.githack.com/8Bts/To-Do-List/main-app/dist/index.html)
 
-## Getting Started
+## Setup
 
   If you want to try this application locally, follow the steps below:
 
@@ -27,7 +35,7 @@ To-Do List app can be useful to create notes about tasks with details. You can a
 
   2. run `npm install`.
 
-  3. Open index.html on using your browser.
+  3. Open index.html using your preffered local server.
 
 ## Author
 
@@ -43,7 +51,7 @@ To-Do List app can be useful to create notes about tasks with details. You can a
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/8Bts/To-Do-List/issues" target="_blank">issues page</a>.
+Feel free to check the <a href="https://github.com/8Bts/Bear_The_Fisher/issues" target="_blank">issues page</a>.
 
 ## Show your support
 
@@ -53,8 +61,10 @@ Give a ⭐️ if you like this project!
 
 - [Microverse - Web Development School](https://www.microverse.org/)
 - [MDN WEB DOCS](https://developer.mozilla.org/)
+- [Robert Brooks](www.gamedeveloperstudio.com)
+- [Open Game Art](https://opengameart.org/)
+- [ECCO PC](https://www.deviantart.com/users/outgoing?https://eccothedolphin.online)
 - <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a> 
-- <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
 - <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
 
 

@@ -10,6 +10,7 @@ class MainScene extends Phaser.Scene {
     this.player = null;
     this.cursors = null;
     this.score = 0;
+    this.maxScorePromise = null;
     this.checkpoint = 150;
     this.scoreText = null;
     this.tempScoreText = null;
@@ -219,7 +220,7 @@ class MainScene extends Phaser.Scene {
       this.hookIsBusy = false;
       this.hookIsOnMove = false;
       this.sharkIsOn = false;
-      Leaderboard.offerScore(window.username, this.score);
+      this.maxScorePromise = Leaderboard.offerScore(window.username, this.score);
       this.scene.pause();
       this.scene.launch('gameOverScene');
       return;
@@ -233,7 +234,7 @@ class MainScene extends Phaser.Scene {
     this.tempScoreText.setColor('#00ff00');
 
     if (this.score >= this.checkpoint) {
-      this.checkpoint += 150;
+      this.checkpoint += 250;
       const newShark = Fish(this.fishes.create(0, 0, 'shark'), this).spawn('left');
       this.physics.add.overlap(this.fishes, newShark, MainScene.sharkAttack, null, this);
     }

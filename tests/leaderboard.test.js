@@ -32,8 +32,9 @@ beforeEach(() => {
   fetch.mockClear();
 });
 
-it('Calls fetch() 2 times with given arguments', async () => {
-  await Leaderboard.offerScore('James', 900);
+it('Calls fetch() 2 times with given arguments and returns 900', async () => {
+  const result = await Leaderboard.offerScore('James', 900);
+  expect(result).toEqual(900);
   expect(fetch).toHaveBeenCalledTimes(2);
   expect(fetch).toHaveBeenLastCalledWith(`${BASE_URL}games/${GAME_ID}/scores/`, {
     method: 'POST',
@@ -46,8 +47,9 @@ it('Calls fetch() 2 times with given arguments', async () => {
 });
 
 
-it('Calls fetch() 1 time with given arguments', async () => {
-  await Leaderboard.offerScore('James', 100);
+it('Calls fetch() 1 time with given arguments and returns 200', async () => {
+  const result = await Leaderboard.offerScore('James', 100);
+  expect(result).toEqual(200);
   expect(fetch).toHaveBeenCalledTimes(1);
   expect(fetch).toHaveBeenLastCalledWith(`${BASE_URL}games/${GAME_ID}/scores/`, {
     mode: 'cors',

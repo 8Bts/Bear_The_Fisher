@@ -27,16 +27,20 @@ const leaderboard = (() => {
   const offerScore = async (user, score) => {
     const arr = await getScores();
     const userScores = arr.filter(obj => obj.user === user);
+    let userMax = 0;
     if (userScores) {
-      let userMax = 0;
       userScores.forEach(obj => {
-        if (obj.score > 0) userMax = obj.score;
+        if (obj.score > userMax) userMax = obj.score;
       });
 
-      if (score > userMax) saveUser(user, score);
+      if (score > userMax) {
+        saveUser(user, score);
+        userMax = score;
+      }
     } else {
       saveUser(user, score);
     }
+    return userMax;
   };
 
   return { offerScore, getScores };
