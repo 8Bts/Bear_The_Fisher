@@ -18,14 +18,15 @@ Hint: Try to aim mouth of the fishes. Otherwise they will ignore the hook.
 - HTML,
 - CSS,
 - ES6,
-- Bootsrap 4.6.0,
-- Webpack 5.24.2
+- Phaser 3
+- Webpack
 - VS Code
 - Firefox Developer Edition
+- Pixlr
 
 ## Live Demo
 
-[Githack](https://raw.githack.com/8Bts/To-Do-List/main-app/dist/index.html)
+[Githack](https://rawcdn.githack.com/8Bts/Bear_The_Fisher/550d211829fbf5a0470f2ed57b11e3d7a0c0a71b/dist/index.html)
 
 ## Setup
 
