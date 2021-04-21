@@ -4,7 +4,7 @@ import Phaser from 'phaser';
 const config = {
   type: Phaser.AUTO,
   width: 950,
-  height: 620,
+  height: 600,
   parent: 'game',
   physics: {
     default: 'arcade',
