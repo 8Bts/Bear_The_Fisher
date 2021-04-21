@@ -13,7 +13,6 @@ canvas {
   align-items: center;
 }
 
-
 .container {
   display: flex;
   flex-flow: column nowrap;
@@ -75,7 +74,7 @@ canvas {
 
 #username:focus {
   border: none;
-  outline : 1px solid aqua;
+  outline: 1px solid aqua;
 }
 
 table {
@@ -85,19 +84,20 @@ table {
   width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td,
+th {
+  border: 1px solid #ddd;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(odd) {
   background-color: #3d3d6c;
-  color: #dddddd;
+  color: #ddd;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ddd;
   color: #3d3d6c;
 }
 
@@ -110,6 +110,7 @@ tr:nth-child(even) {
 .text-center { text-align: center; }
 
 .game-over-score { 
+
   background: #f0f8ff24;
   width: 77%;
   padding: 6px;
