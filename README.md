@@ -26,7 +26,7 @@ Hint: Try to aim mouth of the fishes. Otherwise they will ignore the hook.
 
 ## Live Demo
 
-[Githack](https://rawcdn.githack.com/8Bts/Bear_The_Fisher/550d211829fbf5a0470f2ed57b11e3d7a0c0a71b/dist/index.html)
+[Heroku](https://bearthefisher.herokuapp.com/)
 
 ## Setup
 
