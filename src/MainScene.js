@@ -11,7 +11,7 @@ class MainScene extends Phaser.Scene {
     this.cursors = null;
     this.score = 0;
     this.maxScorePromise = null;
-    this.checkpoint = 150;
+    this.checkpoint = 250;
     this.scoreText = null;
     this.tempScoreText = null;
     this.hook = null;
