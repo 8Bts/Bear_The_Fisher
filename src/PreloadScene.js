@@ -1,7 +1,7 @@
 import Phaser from 'phaser';
 
 import _bear from './assets/images/bear.png';
-import _winter from './assets/images/winter.png';
+import _island from './assets/images/island.png';
 import _boat from './assets/images/boat.png';
 import _hook from './assets/images/hook.png';
 import _water from './assets/images/water.jpg';
@@ -82,7 +82,7 @@ export default class PreloaderScene extends Phaser.Scene {
     this.load.audio('waterFx', _waterFx);
     this.load.audio('scream', _screamFx);
 
-    this.load.image('winter', _winter);
+    this.load.image('island', _island);
     this.load.image('water', _water);
     this.load.image('boat', _boat);
     this.load.image('hook', _hook);

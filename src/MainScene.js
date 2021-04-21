@@ -34,7 +34,7 @@ class MainScene extends Phaser.Scene {
     this.createAnims();
     this.score = 0;
 
-    this.add.image(475, 75, 'winter').setScale(0.95);
+    this.add.image(483, 83, 'island').setScale(0.96);
     this.add.image(400, 444, 'water');
 
     if (backMusic === undefined) {
@@ -44,12 +44,12 @@ class MainScene extends Phaser.Scene {
     this.waterFx = this.sound.add('waterFx', { loop: false });
     this.scream = this.sound.add('scream', { loop: false });
 
-    this.boat = this.physics.add.staticSprite(400, 261, 'boat');
+    this.boat = this.physics.add.staticSprite(400, 268, 'boat');
     this.boat.setScale(0.5);
     this.boat.setBodySize(300, 100, true);
     this.boat.setOffset(100, 0);
 
-    this.player = this.physics.add.staticSprite(370, 192, 'bear');
+    this.player = this.physics.add.staticSprite(370, 198, 'bear');
     this.player.setScale(1.5);
 
     this.hook = this.physics.add.sprite(409, 283, 'hook');
