@@ -109,8 +109,7 @@ tr:nth-child(even) {
 
 .text-center { text-align: center; }
 
-.game-over-score { 
-
+.game-over-score {
   background: #f0f8ff24;
   width: 77%;
   padding: 6px;
