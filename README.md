@@ -1,17 +1,42 @@
 # Bear The Fisher
 
-Bear The Fisher is a simple but addictive 2d fishing game. The main character in this game is the Bear trying to catch fishes. You can play this game only on the 1366x768 or higher screens. Check [How To Play](#How-To-Play) section for gameplay details and controls.
+Bear The Fisher is a simple but addictive 2d fishing game. The game is built with Phaser 3 framework. The main goal is to help the bear catch fishes and achieve the maximum score possible to break the records on the leaderboard. However, not all fishes will give you score points. There are baddies that will eat the other fishes and will end your game in case of being caught. You guessed it right, they are sharks!
+
+Currently, this game can be played only on the 1366x768 or higher screens.
+
+Check [How To Play](#How-To-Play) section for gameplay details and controls.
 
 ## Application Screenshot
 ![screenshot](src/assets/screenshots/screenshot.png)
 
 ## How To Play
 
-Help the bear to catch fishes by pressing the  [`Space`]  button at the right time and you will get scores for it. Scores for the fishes depend on the type and the scale of the fish. Look out for the hungry sharks.
-They will be added by one as you get more scores. Try to not catch them neither feed them with the fish that is on the hook. If you catch the shark, the game is over.
-Your score will be submitted to the leaderboard automatically when you refresh your maximum score.
+- ### Goal
 
-Hint: Try to aim mouth of the fishes. Otherwise they will ignore the hook.
+     Help the bear to catch fishes and you will get score points for it.
+
+- ### Controls
+
+     Press the  [`Space`]  button to drop/pull the hook.
+
+- ### Score
+
+    Score points depend on the type and the scale of the fish.
+
+    `Blue Red Yellow` : 50 points for small, 75 points for bigger ones
+
+    `Purple` : 150 points for small, 250 for bigger ones
+
+    Hint: Try to aim at the mouth of the fishes. Otherwise, they will ignore the hook.
+
+    ![guide](src/assets/screenshots/guide.png)
+
+- ### Game Difficulty 
+
+    Sharks will be added by one as you get more scores. Try to not catch them neither feed them with the fish that is on the hook. If you catch the shark, the game is over.
+    Your score will be submitted to the leaderboard automatically when you refresh your maximum score.
+
+    
 
 ## Built With
 
@@ -36,7 +61,7 @@ Hint: Try to aim mouth of the fishes. Otherwise they will ignore the hook.
 
   2. run `npm install`.
 
-  3. Open index.html using your preffered local server.
+  3. Open index.html using your preferred local server.
 
 ## Author
 
@@ -50,7 +75,7 @@ Hint: Try to aim mouth of the fishes. Otherwise they will ignore the hook.
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the <a href="https://github.com/8Bts/Bear_The_Fisher/issues" target="_blank">issues page</a>.
 
@@ -67,7 +92,3 @@ Give a ⭐️ if you like this project!
 - [ECCO PC](https://www.deviantart.com/users/outgoing?https://eccothedolphin.online)
 - <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a> 
 - <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
-
-
-
-

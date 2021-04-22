@@ -116,7 +116,7 @@ class MainScene extends Phaser.Scene {
     this.cursors = this.input.keyboard.createCursorKeys();
 
     //  The score
-    this.scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#feffea', fontStyle: 'bold' });
+    this.scoreText = this.add.text(16, 16, 'Score: 0', { fontSize: '32px', fill: '#feffea', fontStyle: 'bold' });
     this.tempScoreText = this.add.text(420, 170, '', { fontSize: '24px', fill: '#00ff00', fontStyle: 'bold' });
 
     this.scoreTween = this.tweens.add({
@@ -134,8 +134,9 @@ class MainScene extends Phaser.Scene {
     this.graphics.clear();
     this.graphics.strokeLineShape(this.line);
 
-    if (this.cursors.space.isDown && !this.hookIsOnMove) {
-      if (this.scoreTexthookIsDown) this.physics.moveTo(this.hook, this.hook.x, 409, 100);
+    if (this.cursors.space.isDown) {
+      if (this.hookIsOnMove) return;
+      if (this.hookIsDown) this.physics.moveTo(this.hook, this.hook.x, 409, 100);
       else {
         this.hookIsDown = true;
         this.physics.moveTo(this.hook, this.hook.x, 588, 100);

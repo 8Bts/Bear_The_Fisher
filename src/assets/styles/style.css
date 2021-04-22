@@ -1,5 +1,6 @@
 body {
-  background-color: #33335785;
+  background: rgb(131,247,247);
+  background: linear-gradient(180deg, rgba(131,247,247,1) 0%, rgba(29,150,253,1) 55%, rgba(80,27,194,1) 100%); 
 }
 
 canvas {
