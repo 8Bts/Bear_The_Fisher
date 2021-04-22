@@ -1,0 +1,293 @@
+{
+	"textures": [
+		{
+			"image": "purplefish.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1937,
+				"h": 113
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "purplefish14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					},
+					"frame": {
+						"x": 149,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 148,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 107
+					},
+					"frame": {
+						"x": 298,
+						"y": 0,
+						"w": 148,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 148,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 107
+					},
+					"frame": {
+						"x": 447,
+						"y": 0,
+						"w": 148,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 148,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 106
+					},
+					"frame": {
+						"x": 596,
+						"y": 0,
+						"w": 148,
+						"h": 106
+					}
+				},
+				{
+					"filename": "purplefish19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 148,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 148,
+						"h": 107
+					},
+					"frame": {
+						"x": 745,
+						"y": 0,
+						"w": 148,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 113
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 113
+					},
+					"frame": {
+						"x": 894,
+						"y": 0,
+						"w": 149,
+						"h": 113
+					}
+				},
+				{
+					"filename": "purplefish21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					},
+					"frame": {
+						"x": 1043,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					},
+					"frame": {
+						"x": 1192,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					},
+					"frame": {
+						"x": 1341,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					},
+					"frame": {
+						"x": 1490,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					},
+					"frame": {
+						"x": 1639,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					}
+				},
+				{
+					"filename": "purplefish26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					},
+					"frame": {
+						"x": 1788,
+						"y": 0,
+						"w": 149,
+						"h": 107
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:674dc1af675923730c5fe5702f8a9ca3:a7a49be9868facaff7e6164360060844:bf3b3649236a3219cb29315f49715440$"
+	}
+}

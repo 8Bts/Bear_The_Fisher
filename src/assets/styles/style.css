@@ -1,0 +1,138 @@
+body {
+  background: rgb(131, 247, 247);
+  background: linear-gradient(180deg, rgba(131, 247, 247, 1) 0%, rgba(29, 150, 253, 1) 55%, rgba(80, 27, 194, 1) 100%);
+}
+
+canvas {
+  border: 2px solid #a4a3c89c;
+  border-radius: 0.3%;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  font-family: monospace, 'Courier New', Courier;
+  color: white;
+}
+
+.game-btn {
+  padding: 16px;
+  margin: 30px;
+  width: 160px;
+  height: 50px;
+  background-color: rgb(15, 168, 15);
+  text-align: center;
+  border-radius: 0.3rem;
+  border: none;
+  font-family: monospace, 'Courier New', Courier;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.game-btn:hover {
+  font-size: 18px;
+  padding: 15px;
+  background-color: rgb(0, 236, 0);
+}
+
+.game-over-h1 {
+  font-size: 44px;
+}
+
+.login-h1 {
+  color: white;
+  font-family: monospace, 'Courier New', Courier;
+}
+
+.login-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  padding: 1em;
+}
+
+#username {
+  padding: 10px;
+  border: none;
+  border-radius: 0.2rem;
+  margin: 1em 0;
+  text-align: center;
+}
+
+#username:focus {
+  border: none;
+  outline: 1px solid aqua;
+}
+
+table {
+  font-family: monospace, 'Courier New', Courier;
+  border-collapse: collapse;
+  color: white;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #3d3d6c;
+  color: #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+  color: #3d3d6c;
+}
+
+.col-1 { width: 10%; }
+
+.col-2 { width: 50%; }
+
+.col-3 { width: 40%; }
+
+.text-center { text-align: center; }
+
+.game-over-score {
+  background: #f0f8ff24;
+  width: 77%;
+  padding: 6px;
+  border-radius: 0.2rem;
+}
+
+.high-scores-cont {
+  width: 430px;
+  height: 440px;
+}
+
+.back-btn {
+  position: absolute;
+  height: 25px;
+  width: 100px;
+  right: 10px;
+  bottom: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.back-btn:hover {
+  padding: 0;
+}
