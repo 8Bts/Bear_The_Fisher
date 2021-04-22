@@ -27,7 +27,9 @@ Check [How To Play](#How-To-Play) section for gameplay details and controls.
 
     `Purple` : 150 points for small, 250 for bigger ones
 
-    Hint: Try to aim at the mouth of the fishes. Otherwise, they will ignore the hook.
+- ### Tip
+
+    Try to aim at the mouth of the fishes. Otherwise, they will ignore the hook.
 
     ![guide](src/assets/screenshots/guide.png)
 
