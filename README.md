@@ -1,6 +1,6 @@
 # Bear The Fisher
 
-Bear The Fisher is a simple but addictive 2d fishing game. The game is built with Phaser 3 framework. The main goal is to help the bear catch fishes and achieve the maximum score possible to break the records on the leaderboard. However, not all fishes will give you score points. There are baddies that will eat the other fishes and will end your game in case of being caught. You guessed it right, they are sharks!
+Bear The Fisher is a simple but addictive 2d fishing game. The game is built with Phaser 3 framework. The main goal is to help the bear catch fish and achieve the maximum score possible to break the records on the leaderboard. However, not all fish will give you score points. There are baddies that will eat the other fish and will end your game if they are caught. You guessed it right, they are sharks!
 
 Currently, this game can be played only on the 1366x768 or higher screens.
 
@@ -23,19 +23,19 @@ Check [How To Play](#How-To-Play) section for gameplay details and controls.
 
     Score points depend on the type and the scale of the fish.
 
-    `Blue Red Yellow` : 50 points for small, 75 points for bigger ones
+    `Blue Red Yellow` : 50 points for small ones, 75 points for bigger ones
 
     `Purple` : 150 points for small, 250 for bigger ones
 
 - ### Tip
 
-    Try to aim at the mouth of the fishes. Otherwise, they will ignore the hook.
+    Try to aim at the mouth of the fish. Otherwise, they will ignore the hook.
 
     ![guide](src/assets/screenshots/guide.png)
 
 - ### Game Difficulty 
 
-    Sharks will be added by one as you get more scores. Try to not catch them neither feed them with the fish that is on the hook. If you catch the shark, the game is over.
+    Sharks will be added by one as you get more scores. Avoid catching or feeding them with the fish on the hook. If you catch the shark, the game is over.
     Your score will be submitted to the leaderboard automatically when you refresh your maximum score.
 
     
